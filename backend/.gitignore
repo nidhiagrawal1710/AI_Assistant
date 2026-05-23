@@ -1,0 +1,81 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Django
+# =========================
+db.sqlite3
+*.sqlite3
+
+media/
+staticfiles/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# ChromaDB / Vector DB
+# =========================
+chroma_db/
+chroma_db_ollama/
+
+# =========================
+# RAG Engine Local Files
+# =========================
+rag_engine_Ollama.py
+rag_engine_OpenAI.py
+rag_engine_gemine.py
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# PyInstaller
+# =========================
+*.spec
